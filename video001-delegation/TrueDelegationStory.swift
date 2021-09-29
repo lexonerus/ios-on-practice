@@ -67,7 +67,7 @@ class GremlinSister: OlderGremlinDelegate {
 
 // Older Gremlin Grandfather laying on the couch and watching hockey on TV
 // Старый дед Гремлин лежит на диване и смотрит хоккейный матч по ТВ
-let oldGremlin = GrandfatherGremlinBoss()
+let oldGremlin = GrandfatherGremlin()
 
 // He has a little grandson named Mark
 // У него есть внук по имени Марк
