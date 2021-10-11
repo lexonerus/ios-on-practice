@@ -1,6 +1,6 @@
 # YoutTube канал "iOS на практике"
 
-Данный репозиторий содержит ссылки на все мои проекты, которые я освещая на своем [YouTube канале](https://www.youtube.com/channel/UCNp8ItQbZqAz97ACiVEe62g).
+Данный репозиторий содержит ссылки на все мои проекты, которые я освещая на [YouTube канале](https://www.youtube.com/channel/UCNp8ItQbZqAz97ACiVEe62g).
 
 :movie_camera: Название видео на YouTube | 	:octocat: Ссылка на репозиторий
 ------------ | -------------
