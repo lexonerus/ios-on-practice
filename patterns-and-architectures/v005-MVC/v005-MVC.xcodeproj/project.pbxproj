@@ -60,7 +60,7 @@
 		56774E6427354ED800170B6C /* v005-MVC */ = {
 			isa = PBXGroup;
 			children = (
-				56774E7B27354F0300170B6C /* Conrollers */,
+				56774E7B27354F0300170B6C /* Controllers */,
 				56774E7A27354EFB00170B6C /* Views */,
 				56774E7927354EF600170B6C /* Models */,
 				56774E6527354ED800170B6C /* AppDelegate.swift */,
@@ -88,12 +88,12 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		56774E7B27354F0300170B6C /* Conrollers */ = {
+		56774E7B27354F0300170B6C /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				56774E6927354ED800170B6C /* ViewController.swift */,
 			);
-			path = Conrollers;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		56774E7C27354F1200170B6C /* Storyboards */ = {
