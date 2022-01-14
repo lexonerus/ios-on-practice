@@ -6,6 +6,6 @@
 
 - Необходимо скачать или клонировать весь проект [ios на практике](https://github.com/lexonerus/ios-on-practice)
 - Перейти в каталог /patterns-and-architectures/v030-MVVMC_simple
-- Затем открыть файл м029-MVVM_simple.xcodeproj с помощью Xcode
+- Затем открыть файл MVVM_simple.xcodeproj с помощью Xcode
 
 Подписывайтесь на мой YouTube канал.
