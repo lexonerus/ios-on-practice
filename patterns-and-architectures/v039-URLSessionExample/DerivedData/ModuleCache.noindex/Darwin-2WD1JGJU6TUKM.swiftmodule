@@ -1,0 +1,76 @@
+---
+path:            '/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/15.2/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule'
+dependencies:
+  - mtime:           1637336089000000000
+    path:            '/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/15.2/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule'
+    size:            148396
+  - mtime:           1636175127000000000
+    path:            'usr/lib/swift/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftinterface'
+    size:            1951304
+    sdk_relative:    true
+  - mtime:           1636697871000000000
+    path:            'usr/include/darwin_cdefs.modulemap'
+    size:            139
+    sdk_relative:    true
+  - mtime:           1636697854000000000
+    path:            'usr/include/net.modulemap'
+    size:            497
+    sdk_relative:    true
+  - mtime:           1636697851000000000
+    path:            'usr/include/netinet.modulemap'
+    size:            816
+    sdk_relative:    true
+  - mtime:           1636697871000000000
+    path:            'usr/include/darwin_posix_sys_types.modulemap'
+    size:            150
+    sdk_relative:    true
+  - mtime:           1636697846000000000
+    path:            'usr/include/bank.modulemap'
+    size:            102
+    sdk_relative:    true
+  - mtime:           1636697850000000000
+    path:            'usr/include/mach_machine.modulemap'
+    size:            2253
+    sdk_relative:    true
+  - mtime:           1636697848000000000
+    path:            'usr/include/mach_debug.modulemap'
+    size:            98
+    sdk_relative:    true
+  - mtime:           1636696327000000000
+    path:            'usr/include/mach.modulemap'
+    size:            6092
+    sdk_relative:    true
+  - mtime:           1636697847000000000
+    path:            'usr/include/device.modulemap'
+    size:            79
+    sdk_relative:    true
+  - mtime:           1636697849000000000
+    path:            'usr/include/machine.modulemap'
+    size:            1487
+    sdk_relative:    true
+  - mtime:           1636697848000000000
+    path:            'usr/include/netinet6.modulemap'
+    size:            175
+    sdk_relative:    true
+  - mtime:           1636697851000000000
+    path:            'usr/include/uuid.modulemap'
+    size:            66
+    sdk_relative:    true
+  - mtime:           1636697847000000000
+    path:            'usr/include/kcdata.modulemap'
+    size:            63
+    sdk_relative:    true
+  - mtime:           1636165041000000000
+    path:            'usr/include/Darwin.apinotes'
+    size:            1133
+    sdk_relative:    true
+  - mtime:           1636175131000000000
+    path:            'usr/lib/swift/_Concurrency.swiftmodule/x86_64-apple-ios-simulator.swiftinterface'
+    size:            98085
+    sdk_relative:    true
+  - mtime:           1636183831000000000
+    path:            'usr/lib/swift/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftinterface'
+    size:            30110
+    sdk_relative:    true
+version:         1
+...

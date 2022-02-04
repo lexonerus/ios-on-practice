@@ -1,0 +1,59 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "54ea99c3c25a07cf9442f2259a9bf3ff04099236ab612e5bcf5b6cf45568b59f"
+    }
+  ],
+  "containerPath" : "/Volumes/WD-green/Users/lexone01/Documents/Xcode-projects/iOS-on-practice/VideoCode/URLSessionExample/URLSessionExample.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator15.2",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Volumes/WD-green/Users/lexone01/Documents/Xcode-projects/iOS-on-practice/VideoCode/URLSessionExample/DerivedData/URLSessionExample/Index/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Volumes/WD-green/Users/lexone01/Documents/Xcode-projects/iOS-on-practice/VideoCode/URLSessionExample/DerivedData/URLSessionExample/Index/Build/Products",
+      "derivedDataPath" : "/Volumes/WD-green/Users/lexone01/Documents/Xcode-projects/iOS-on-practice/VideoCode/URLSessionExample/DerivedData",
+      "indexDataStoreFolderPath" : "/Volumes/WD-green/Users/lexone01/Documents/Xcode-projects/iOS-on-practice/VideoCode/URLSessionExample/DerivedData/URLSessionExample/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Volumes/WD-green/Users/lexone01/Documents/Xcode-projects/iOS-on-practice/VideoCode/URLSessionExample/DerivedData/URLSessionExample/Index/PrecompiledHeaders",
+      "pchPath" : "/Volumes/WD-green/Users/lexone01/Documents/Xcode-projects/iOS-on-practice/VideoCode/URLSessionExample/DerivedData/URLSessionExample/Index/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "INDEX_ARENA_INFO_REGULAR_BUILD_PRODUCTS_DIR" : "/Volumes/WD-green/Users/lexone01/Documents/Xcode-projects/iOS-on-practice/VideoCode/URLSessionExample/DerivedData/URLSessionExample/Build/Products",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

@@ -1,0 +1,11 @@
+version: "Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
+options: "7c210285ad91bfaec743ad1cdc75c0a36a39d4994ee93a2203d801d0d6081829"
+build_start_time: [1643965966, 754397869]
+build_end_time: [1643965972, 130980014]
+inputs:
+  ? "/Volumes/WD-green/Users/lexone01/Documents/Xcode-projects/iOS-on-practice/VideoCode/URLSessionExample/URLSessionExample/AppDelegate.swift"
+  : [1643965151, 0]
+  ? "/Volumes/WD-green/Users/lexone01/Documents/Xcode-projects/iOS-on-practice/VideoCode/URLSessionExample/URLSessionExample/SceneDelegate.swift"
+  : [1643965151, 0]
+  ? "/Volumes/WD-green/Users/lexone01/Documents/Xcode-projects/iOS-on-practice/VideoCode/URLSessionExample/URLSessionExample/ViewController.swift"
+  : [1643965151, 0]
