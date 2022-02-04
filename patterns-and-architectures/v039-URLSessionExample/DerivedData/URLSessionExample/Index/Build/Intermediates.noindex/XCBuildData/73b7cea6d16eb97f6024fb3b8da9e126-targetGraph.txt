@@ -1,3 +1,0 @@
-Target dependency graph (2 targets)
-URLSessionExample in URLSessionExample, no dependencies
-URLSessionExample in URLSessionExample, no dependencies
