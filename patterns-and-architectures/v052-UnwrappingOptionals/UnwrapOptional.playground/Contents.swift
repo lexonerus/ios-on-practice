@@ -2,10 +2,10 @@ var text: String? = "some text"
 //var text: String? = nil
 
 // 1. Пинудительно (forced) - не безопасно
-//var unwrapped1: String = text! // "unexpectedly found nil while unwrapping an Optional value"
+//var unwrapped1: String = text!
 
 // 2. Неявно (implicitly) - не безопасно
-//var unwrapped2 = text! // "Execution was interrupted"
+var unwrapped2: String! = text 
 
 // 3. Опциональное привязывание (binding) - безопасно
 if let unwrapped3 = text {
