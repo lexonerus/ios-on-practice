@@ -10,7 +10,7 @@
 
 import UIKit
 
-// MARK: - Network helpers
+
 struct CatFact: Codable {
     let fact: String
     let length: Int
@@ -23,28 +23,33 @@ enum NetworkError: Error {
     case decodingFailed
 }
 
-// MARK: - ViewController
 class ViewController: UIViewController {
-    
-    // MARK: - Properties
-    @IBOutlet weak var textView: UITextView!
-    @IBOutlet weak var getNewButton: UIButton!
-    
-    
-    // MARK: - Lifecycle
+
     override func viewDidLoad() {
         super.viewDidLoad()
-    }
-    
-    // MARK: - Methods
-    // Update textView with some string
-    func updateText(with fact: String) {
-        DispatchQueue.main.async {
-            self.textView.text = fact
+        // Do any additional setup after loading the view.
+        doSomething()
+        
+        let task = getCatFact() { result in
+            switch result {
+            case .success(let catFact):
+                print(catFact)
+            case .failure(let error):
+                print(error)
+            }
         }
+
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+            task?.cancel()
+        }
+        
     }
-    
-    // Get cat fact from API
+
+    @discardableResult
+    func doSomething() -> Int {
+        return 42
+    }
+
     @discardableResult
     func getCatFact(completion: @escaping (Result<CatFact, Error>) -> Void) -> URLSessionDataTask? {
         let urlString = "https://catfact.ninja/fact"
@@ -76,30 +81,6 @@ class ViewController: UIViewController {
         
         task.resume()
         return task
-    }
-    
-    // Get new button action
-    @IBAction func getNewButtonAction(_ sender: Any) {
-        let task = getCatFact() { result in
-            switch result {
-            case .success(let catFact):
-                // if request works well, update text
-                print(catFact)
-                self.updateText(with: catFact.fact)
-            case .failure(let error):
-                // if request fails, update text
-                print(error)
-                self.updateText(with: "Sorry =( \nSome error happend")
-            }
-        }
-        
-        // if request stacked, cancel and update text
-        DispatchQueue.main.asyncAfter(deadline: .now() + 2.2) {
-            if task?.state == .running {
-                task?.cancel()
-                self.updateText(with: "Sorry =( \nSome error happend")
-            }
-        }
     }
     
 }

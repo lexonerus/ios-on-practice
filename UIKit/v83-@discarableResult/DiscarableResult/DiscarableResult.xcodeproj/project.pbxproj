@@ -83,8 +83,6 @@
 			dependencies = (
 			);
 			name = DiscarableResult;
-			packageProductDependencies = (
-			);
 			productName = DiscarableResult;
 			productReference = 08500AC22A6D883500470ADF /* DiscarableResult.app */;
 			productType = "com.apple.product-type.application";
@@ -113,8 +111,6 @@
 				Base,
 			);
 			mainGroup = 08500AB92A6D883500470ADF;
-			packageReferences = (
-			);
 			productRefGroup = 08500AC32A6D883500470ADF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
